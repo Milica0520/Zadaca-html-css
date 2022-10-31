@@ -1,0 +1,43 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="text">Ime i prezime</label>
+            <br>
+            <input required type="text" placeholder="Unesite ime i prezime" name="KorisniČko ime">
+        </div>
+        <div>
+            <label for="text">Adresa</label><br>
+            <input required type="text" placeholder="Unesite adresu">
+        </div>
+        <div>
+            <label for="E-mail">E-mail</label><br>
+            <input type="email" name="email" placeholder="Unesite e-mail">
+        </div>
+        <fieldset style="width: 50px;">
+            <legend>Pol</legend>
+            <div>
+                <input type="radio" name="Pol" id="polM" checked><label for="polM">M</label><br>
+                <input type="radio" name="Pol" id="polŽ" checked><label for="polŽ">Ž</label>
+            </div>
+        </fieldset><br>
+        <div class="select">
+            <legend>Kurs</legend><br>
+            <select name="format" id="format">
+                <option value="HTLM">HTLM</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="submit" value="OK">
+        </div>
+    </form>
+</body>
+
+</html>
